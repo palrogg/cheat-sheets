@@ -17,17 +17,23 @@ NB use [this](https://github.com/palrogg/playfair-projects/tree/master/projects/
 
 # Updates
 ### Get version of version manager
+
 `npm -v`
+
 `pip show pip`
 
 ### Get version of package
 `pip show *stuff*`
+
 `npm view *stuff*`
+
 `npm list *stuff*`
+
 `yarn info *stuff*`
 
 ### Get versions of all packages
 `npm list`
+
 `pip freeze`
 
 ### Homebrew
