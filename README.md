@@ -16,6 +16,7 @@ NB use [this](https://github.com/palrogg/playfair-projects/tree/master/projects/
 7. nginx
 
 # Updates
+
 ### Get version of version manager
 
 `npm -v`
@@ -38,6 +39,9 @@ NB use [this](https://github.com/palrogg/playfair-projects/tree/master/projects/
 
 ### Homebrew
 `HOMEBREW_NO_AUTO_UPDATE=1 brew install`
+
+### apt
+`apt-get update && apt-get dist-upgrade -y`
 
 # Python
 
@@ -104,3 +108,15 @@ colors
 ## Shell
 
 ## NodeJS
+
+## pm2
+
+pm2 start, pm2 stop, pm2 list
+
+## supervisor
+
+## top, htop, ps
+
+`ps -ef | grep chrome`
+
+...
