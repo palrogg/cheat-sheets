@@ -9,6 +9,7 @@ NB use [this](https://github.com/palrogg/playfair-projects/tree/master/projects/
 2. [Python](#Python)
 2.1 Pandas
 2.2 Matplotlib
+2.3 Modules
 3. Shell
 4. NodeJS
 5. pm2
@@ -105,6 +106,14 @@ plt.savefig('stuff.pdf')
 
 colors
 
+## Modules
+
+### Reload module
+```
+import importlib
+importlib.reload(define)
+```
+
 ## Shell
 
 ## NodeJS
@@ -118,5 +127,14 @@ pm2 start, pm2 stop, pm2 list
 ## top, htop, ps
 
 `ps -ef | grep chrome`
+
+# Testing
+* Pytest `pip install -U pytest`
+* [Jest](https://jestjs.io/docs/en/getting-started.html)
+
+# Markdown preview
+* Atom: Ctrl-shift-M
+* VS Code: Cmd-shift-V
+
 
 ...
